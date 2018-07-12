@@ -26,32 +26,32 @@
 			<section id="banner" data-video="images/banner">
 						<div class="inner">
 							<div class="content">
-								<h2 class="align-center">Get in Touch</h2>
+								<h2 class="align-center">Plan a Trip</h2>
 								<hr />
 								<form action="#" method="post">
+									<div class="field ">
+										<label for="arrival">Arriving At</label>
+										<input name="arrival" id="arrival" type="date" dataformatas="mm/dd/yyyy" placeholder="When">
+									</div>
+									<div class="field ">
+										<label for="place">Place</label>
+										<input name="place" id="place" type="text" placeholder="Where">
+									</div>
 									<div class="field half first">
-										<label for="name">Name</label>
-										<input name="name" id="name" type="text" placeholder="Name">
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input name="email" id="email" type="email" placeholder="Email">
-									</div>
-									<div class="field">
-										<label for="dept">Department</label>
+										<label for="duration">For how long</label>
 										<div class="select-wrapper">
-											<select name="dept" id="dept">
-												<option value="">- Category -</option>
-												<option value="1">Manufacturing</option>
-												<option value="1">Shipping</option>
-												<option value="1">Administration</option>
-												<option value="1">Human Resources</option>
+											<select name="duration" id="duration">
+												<option value="">- Duration -</option>
+												<option value="1">Short Break (1-5 days)</option>
+												<option value="1">Long Break (6-12 days)</option>
+												<option value="1">Vacation (13-21 days)</option>
+												<option value="1">Grand Voyage (22+ days)</option>
 											</select>
 										</div>
 									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+									<div class="field half ">
+										<label for="stay">Staying at:</label>
+										<input name="stay" id="stay" type="text" placeholder="Staying At">
 									</div>
 									<ul class="actions align-center">
 										<li><input value="Send Message" class="button special" type="submit"></li>
